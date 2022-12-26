@@ -5,7 +5,7 @@
 }
 
 nav{
-    height: 4.5rem !important;
+    height: 4.8rem !important;
 }
 
 .brand-logo{
@@ -15,14 +15,43 @@ nav{
 .brand-logo img{
    width: 120px;
    height: 60px;
-   margin-top: 5px;
+   margin-top: 7px;
 }
 
 .right{
     position: relative;
-    left: 15rem !important;
+    left: 14rem !important;
+    bottom: 2.6rem;
 }
 
 li a i{
     color: black;
+}
+
+.bar{
+    width: 45rem;
+    border-radius:20px;
+    border:1px solid #c0a4a4;
+    display: flex;
+    justify-content: space-between;
+    height: 3rem;
+    position: relative;
+    top: 14px;
+}
+
+.bar:hover{
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+ }
+
+.searchbar{
+    outline: none;
+    border: none;
+    position: relative;
+    bottom: 0.7rem;
+    left: 1rem;
+}
+
+.icons img{
+      width: 20px;
+      height: 20px;
 }
