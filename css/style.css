@@ -80,8 +80,16 @@ input:hover{
     color: rgb(32, 29, 29);
     text-decoration: none;
     font-size: 14px;
+    padding-bottom: 15px;
 }
 
 .options a i{
     padding-left: 4px;
+}
+
+#option hr{
+    width: 120% !important;
+    color: rgb(167, 163, 163);
+    overflow: hidden !important;
+   
 }
