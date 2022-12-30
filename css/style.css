@@ -17,13 +17,15 @@ nav{
 .brand-logo img{
    width: 110px;
    height: 60px;
-   margin-top: 0.8rem;
+   margin-top: 1.5rem;
+   position: relative;
+   right: 1rem;
 }
 
 .right{
     position: relative !important;
-    left: 13rem !important;
-    bottom: 4.5rem;
+    left: 14rem !important;
+    bottom: 3.5rem;
 }
 
 li a i{
@@ -37,12 +39,15 @@ li a i{
 }
 
 input{
-    width: 45rem !important;
+    width: 44rem !important;
     border: 1px solid whitesmoke !important;
-    margin: 17px 90px 0px 0px !important ;
+    margin: 18px 90px 0px 0px !important ;
     padding-left: 10px !important;
     border-radius: 50px !important;
     box-shadow:0px 2px 4px #E4E4E4 !important; 
+    position: relative;
+    right: 11rem;
+    top: 0.4rem;
 }
 
 input:hover{
@@ -51,16 +56,16 @@ input:hover{
 
 .bar img{
     position: relative;
-    left: 45rem;
-    top: 30px;
+    left: 33rem;
+    top: 36px;
     padding-left: 5px;
 }
 
 .bar a i{
     color: black;
     position: relative;
-    left: 45rem;
-    top: 9px;
+    left: 33rem;
+    top: 1.1rem;
    
 }
 
@@ -70,7 +75,7 @@ input:hover{
 
 .options{
     width: 50%;
-    margin-left: 23rem;
+    margin-left: 13rem;
 }
 
 .options a{
@@ -92,7 +97,7 @@ input:hover{
 }
 
 .options a:nth-child(6){
-    margin-left: 17rem;
+    margin-left: 16rem;
     
 }
 
@@ -105,13 +110,14 @@ input:hover{
 
 #option hr{
     width: 120% !important;
-    color: rgb(167, 163, 163);
+    color: rgb(221, 220, 220) ;
+    background-color: rgba(221, 220, 220, 0.2) ;
     overflow: hidden !important;
    
 }
 
 .text{
     margin-top: 1rem;
-    margin-left: 24.5rem;
+    margin-left: 14.7rem;
     color: #838282;
 }
