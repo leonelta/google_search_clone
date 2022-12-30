@@ -82,7 +82,7 @@ input:hover{
     float: left;
     padding-top: 20px;
     margin-left: 18px;
-    color: rgb(32, 29, 29);
+    color: #5F6368;
     text-decoration: none;
     font-size: 14px;
     padding-bottom: 15px;
@@ -93,7 +93,7 @@ input:hover{
 }
 
 .options .active{
-    color: rgb(48, 48, 212);
+    color: #1a73e8; 
 }
 
 .options a:nth-child(6){
@@ -110,8 +110,7 @@ input:hover{
 
 #option hr{
     width: 120% !important;
-    color: rgb(221, 220, 220) ;
-    background-color: rgba(221, 220, 220, 0.2) ;
+    color: rgb(240, 238, 238) !important;
     overflow: hidden !important;
    
 }
@@ -119,7 +118,7 @@ input:hover{
 .text{
     margin-top: 0.4rem;
     margin-left: 14.7rem;
-    color: #838282;
+    color: #70757a;
 }
 
 .intro{
@@ -134,4 +133,20 @@ input:hover{
 
 .career{
     color: #838282;
+}
+
+.selection{
+    padding-left: 2rem;
+    padding-top: 1.5rem;
+}
+
+.selection a{
+    border-radius: 50px;
+    padding: 10px 20px;
+    background-color: #E2EEFF ;
+    margin-left: 2px;  
+}
+
+.selection a:nth-child(1){
+    border: 1px solid #73adff
 }
