@@ -117,7 +117,7 @@ input:hover{
 }
 
 .text{
-    margin-top: 0.6rem;
+    margin-top: 0.4rem;
     margin-left: 14.7rem;
     color: #838282;
 }
@@ -125,5 +125,13 @@ input:hover{
 .intro{
     display: flex;
     margin-left: 14.7rem;
-    margin-top: 2.3rem;
+    margin-top: 2rem;
+}
+
+.name{
+    font-size: 1.8rem;
+}
+
+.career{
+    color: #838282;
 }
