@@ -152,15 +152,16 @@ input:hover{
     border: 1px solid #73adff
 }
 
+
 .collection{
-    display: flex;
-    padding-left: 14.7rem !important;
+  
+    margin-left: 14.7rem !important;
     padding-right: 14.7rem !important;
 }
 
 .column{
     float: left;
-    padding-right: 90px;
+    padding-right: 100px;
     height: 310px;
 }
 
@@ -224,6 +225,7 @@ input:hover{
     bottom: 35px;
     left: 16px;
     color: white;
+    font-size: 13px;
 }
 
 .right_lower .title{
@@ -237,3 +239,38 @@ input:hover{
 }
 
 
+.middle .card{
+    width: 250px ;
+    height: 330px;
+    border-radius: 15px ;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    position: relative;
+    bottom: 20px;
+}
+
+.card img{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    height: 155px;
+}
+
+.card-tirle i{
+      position: relative;
+      color: white;
+      bottom: 6.5rem;
+      font-size: 2rem;
+      left: 7.5rem;
+}
+
+.card-time a{
+    position: relative;
+    color: white;
+    bottom: 3.5rem;
+    font-size: 15px;
+    right: 1.5rem;
+}
+
+.card-content{
+    
+}
