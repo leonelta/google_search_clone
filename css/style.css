@@ -272,5 +272,21 @@ input:hover{
 }
 
 .card-content{
-    
+    padding-top: 5px;
+}
+
+.card-content img{
+   width: 13px;
+   height: 13px;
+   position: relative;
+   bottom: 2.8rem;
+   right: 2.5rem;
+}
+
+.yout{
+    position: relative;
+    bottom: 4.3rem;
+    left: 0.5rem;
+    font-size: 13px;
+    color: #70757a;
 }
