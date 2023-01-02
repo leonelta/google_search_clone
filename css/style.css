@@ -71,6 +71,7 @@ input:hover{
 
 #option{ 
      padding: 8px;
+     width: auto;
 }
 
 .options{
@@ -109,7 +110,7 @@ input:hover{
 }
 
 #option hr{
-    width: 120% !important;
+    width: 100% !important;
     color: rgb(240, 238, 238) !important;
     overflow: hidden !important;
    
@@ -150,3 +151,89 @@ input:hover{
 .selection a:nth-child(1){
     border: 1px solid #73adff
 }
+
+.collection{
+    display: flex;
+    padding-left: 14.7rem !important;
+    padding-right: 14.7rem !important;
+}
+
+.column{
+    float: left;
+    padding-right: 90px;
+    height: 310px;
+}
+
+.left{
+    width: 50%;
+    
+}
+
+.middle {
+    width: 25%;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 250px 150px;
+    grid-template-rows:  150px;
+    
+}
+
+.grid .leftrow{
+    grid-column: 1 / 2;
+    grid-row: 1 / span 2;
+}
+
+
+.grid .right_upper{
+    grid-column: 2 / 2;
+    grid-row: 1 / 2;
+}
+
+.grid  .right_lower{
+    grid-column: 2 / 2;
+    grid-row: 2 / 2;
+}
+
+.leftrow .image img{
+    width: 300px;
+    height:321px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.right_upper .image img{
+    width: 220px;
+    max-height: 180px;
+    position: relative;
+    left: 3.5rem;
+    border-top-right-radius: 25px;
+}
+.right_lower .image img{
+    max-width: 230px;
+    max-height: 280px;
+    position: relative;
+    left: 3.5rem;
+    top: 2.2rem;
+    border-bottom-right-radius: 25px;
+}
+
+.leftrow .title{
+    position: relative;
+    bottom: 35px;
+    left: 16px;
+    color: white;
+}
+
+.right_lower .title{
+    position: relative;
+    bottom: 4px;
+    left: 16rem;
+}
+
+.right_lower .title i{
+   color: white;
+}
+
+
