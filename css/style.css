@@ -166,13 +166,18 @@ input:hover{
 }
 
 .left{
-    width: 50%;
+    width: 35%;
     
 }
 
 .middle {
-    width: 25%;
+    width: 10%;
 }
+
+.column .right{
+    width: 55%;
+}
+
 
 .grid{
     display: grid;
@@ -247,7 +252,7 @@ input:hover{
     border-top-right-radius: 25px;
     position: relative;
     bottom: 20px;
-    right: 1rem;
+    left: 10rem;
 }
 
 .card img{
@@ -314,4 +319,45 @@ input:hover{
     right: 1rem;
     font-size: 13px;
     color: #70757a;
+}
+
+.column .card1{
+    border-radius: 28px;
+    background-color: rgba(150, 207, 253, 0.3);
+    position: relative;
+    top: 3rem;
+    right: 22rem ;
+    width: 128px;
+    height: 160px;
+}
+
+.card1 .card-title, 
+.card2 .card-title{
+    position: relative;
+    top: 1rem;
+    left: 1rem;
+}
+
+.card1 .detail{
+    position: relative;
+    top: 4.6rem;
+    font-size: 14px;
+    left: 0.9rem;
+}
+
+.column .card2{
+    border-radius: 28px;
+    background-color: rgba(150, 207, 253, 0.3);
+    position: relative;
+    bottom: 7.5rem;
+    right: 12.5rem ;
+    width: 128px;
+    height: 155px;
+}
+
+.card2 .detail{
+    position: relative;
+    top: 4rem;
+    font-size: 14px;
+    left: 0.9rem;
 }
