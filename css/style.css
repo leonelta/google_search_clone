@@ -241,12 +241,13 @@ input:hover{
 
 .middle .card{
     width: 250px ;
-    height: 330px;
+    height: 325px;
     border-radius: 15px ;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     position: relative;
     bottom: 20px;
+    right: 1rem;
 }
 
 .card img{
@@ -287,6 +288,30 @@ input:hover{
     position: relative;
     bottom: 4.3rem;
     left: 0.5rem;
+    font-size: 13px;
+    color: #70757a;
+}
+
+.detail{
+    position: relative;
+    bottom: 3.9rem;
+    right: 1rem;
+    font-size: 12px;
+    color: #0f0f0f;
+}
+
+.detail-sum{
+    position: relative;
+    bottom: 3.5rem;
+    right: 1rem;
+    font-size: 12px;
+    color: #70757a;
+}
+
+.date{
+    position: relative;
+    bottom: 2rem;
+    right: 1rem;
     font-size: 13px;
     color: #70757a;
 }
