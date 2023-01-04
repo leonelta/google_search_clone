@@ -326,7 +326,7 @@ input:hover{
     background-color: rgba(150, 207, 253, 0.3);
     position: relative;
     top: 3rem;
-    right: 22rem ;
+    right: 14rem ;
     width: 128px;
     height: 160px;
 }
@@ -350,9 +350,9 @@ input:hover{
     background-color: rgba(150, 207, 253, 0.3);
     position: relative;
     bottom: 7.5rem;
-    right: 12.5rem ;
+    right: 4rem ;
     width: 128px;
-    height: 155px;
+    height: 156px;
 }
 
 .card2 .detail{
@@ -361,3 +361,60 @@ input:hover{
     font-size: 14px;
     left: 0.9rem;
 }
+
+.column .card3{
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255) ;
+    box-shadow: 3px 3px 10px rgb(240, 239, 239);
+    position: relative;
+    bottom: 6.5rem;
+    right: 13rem ;
+    width: 255px;
+    height: 150px;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+
+.head img{  
+    height: 16px;  
+    padding-right: 10px; 
+    position: relative;
+    right: 0.1rem;
+    top: 0.2rem;
+     
+}
+.head span{
+    position: relative;
+    left: 1rem;
+    top: 1rem;
+    font-size: 13px;
+    color: #5F6368;
+}
+
+.head i{
+    position: relative;
+    right: 2rem;
+    top: 1.2rem;
+    color: #5F6368;
+}
+
+.card3 p{
+    font-size: 13px;
+    color: #70757a;
+}
+
+.card3 .leo-info{
+    padding: 30px 15px;
+}
+
+.card3 .detail{
+    position: relative;
+    left: 1rem;
+    top: 1.5rem ;
+    color: #222121;
+    font-size: 14px;
+}
+
