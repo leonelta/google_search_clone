@@ -418,3 +418,12 @@ input:hover{
     font-size: 14px;
 }
 
+.card1:hover,
+.card2:hover{
+    background-color: rgba(73, 119, 245, 0.3);
+}
+
+.card3:hover{
+    background-color: rgba(83, 74, 74, 0.2);
+}
+
