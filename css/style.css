@@ -255,6 +255,10 @@ input:hover{
     left: 10rem;
 }
 
+.card:hover{
+    background-color: rgba(114, 113, 113, 0.2);
+}
+
 .card img{
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
@@ -427,3 +431,19 @@ input:hover{
     background-color: rgba(83, 74, 74, 0.2);
 }
 
+.top_stories{
+    display: flex;
+    flex-direction: row;
+}
+
+.left_side{
+    width: 60%;
+}
+
+.vertical{
+    width: 10%
+}
+
+.right_side{
+    width: 30%
+}
