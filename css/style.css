@@ -471,10 +471,11 @@ input:hover{
     color: #1a0dab;
 }
 
- .right_side .claim{
+ .right_side .claim,
+ .stats .space{
     display: flex;
     justify-content: space-between;
-    padding: 5px 0 10px 0;
+    padding: 7px 0 10px 0;
  }
 
  .claim .btnn{
@@ -498,12 +499,31 @@ input:hover{
 
 .claim p{
     font-size: 12px;
-    padding-right: 7rem;
+    padding-right: 8rem;
     padding-top: 0.5rem;
     color: #5F6368;
 }
 
 .right_side hr{
     border-top: 0.5px solid #dad6d6;
-    width: 25rem;
+    width: 24rem;
+}
+
+.space a{
+    color: rgb(26, 25, 25);
+    font-size: 25px;
+    padding-top: 10px ;  
+}
+
+.space .btnn{
+    position: relative;
+    right: 8rem;
+    border: 1px solid rgb(161, 161, 161);
+    border-radius: 50%;
+    padding: 0px 15px;
+}
+
+.space a img{
+    width: 10px;
+    height: 10px;  
 }
