@@ -441,9 +441,17 @@ input:hover{
 }
 
 .vertical{
-    width: 10%
+    width: 10%;
+    border-left: 1px solid rgb(160, 156, 156);
+    height: 50rem;
+    position: absolute;
+    left: 60.4%;
+    margin-top: 27px;
 }
 
 .right_side{
-    width: 30%
+    width: 30%;
+    margin: 20px;
+    margin-top: 5px;
+    padding-left: 10px;
 }
