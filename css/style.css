@@ -528,7 +528,13 @@ input:hover{
 
 }
 
-.space .txt
+.space .btnn:hover{
+    background-color: rgba(217, 237, 253, 0.3);
+}
+
+.space .txt:hover {
+    text-decoration: underline;
+}
 
 .space a img{
     width: 10px;
@@ -541,4 +547,17 @@ input:hover{
     font-size: 14px;
     margin-bottom: 5px;
     color: #222121;
+}
+
+.stats table {
+    width: 78%;
+}
+
+table th{
+    color: #5F6368;
+    font-size: 12.5px;
+}
+
+td{
+    font-size: 13px;
 }
