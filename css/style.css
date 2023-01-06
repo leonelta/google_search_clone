@@ -443,7 +443,7 @@ input:hover{
 .vertical{
     width: 10%;
     border-left: 1px solid rgb(160, 156, 156);
-    height: 100rem;
+    height: 85rem;
     position: absolute;
     left: 60.4%;
     margin-top: 27px;
@@ -640,4 +640,27 @@ td{
 .anto{
     position: relative;
     right: 5.2rem;
+}
+
+.more{
+    margin-top: 30px;
+}
+
+.more .btnn{
+    border: 1px transparent ;
+    background-color: rgba(214, 213, 213, 0.3);
+    border-radius: 50px;
+    padding: 10px  133px;
+    color: rgb(20, 20, 20);
+}
+
+.more .btnn:hover{
+    background-color: rgba(170, 169, 169, 0.3);
+}
+
+.more .btnn i{
+    font-size: 20px;
+    position: relative;
+    left: 4px;
+    top: 2.5px;
 }
