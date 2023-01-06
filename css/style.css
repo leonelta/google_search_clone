@@ -470,3 +470,15 @@ input:hover{
 .right_side p a{
     color: #1a0dab;
 }
+
+ .right_side .claim{
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .claim .btnn{
+    color: #70757a;
+    border: 1px solid #838282;
+    border-radius: 50px;
+    padding: 5px;
+ }
