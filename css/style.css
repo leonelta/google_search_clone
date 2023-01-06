@@ -460,3 +460,13 @@ input:hover{
     font-size: 18px;
     color: #5F6368;
 }
+
+
+.right_side p{
+    padding-bottom: 7px;
+    font-size: 14px;
+}
+
+.right_side p a{
+    color: #1a0dab;
+}
