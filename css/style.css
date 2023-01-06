@@ -610,3 +610,27 @@ td{
 .people{
     display: flex;
 }
+
+.people img{
+    border-radius: 15px;
+}
+
+.people a{
+    color: #413f3f;
+    font-size: 15px;
+}
+
+.ney{
+    position: relative;
+    right: 2.2rem;
+}
+
+.lian{
+    position: relative;
+    right: 4rem;
+}
+
+.anto{
+    position: relative;
+    right: 5.2rem;
+}
