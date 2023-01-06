@@ -111,7 +111,7 @@ input:hover{
 
 #option hr{
     width: 100% !important;
-    color: rgb(240, 238, 238) !important;
+    border-top: 1px solid #e2e1e1 !important;
     overflow: hidden !important;
    
 }
@@ -492,11 +492,14 @@ input:hover{
     top: 2px;
  }
 
- .claim p{
+.claim p{
     font-size: 12px;
     padding-right: 7rem;
     padding-top: 0.5rem;
     color: #5F6368;
- }
+}
 
- .
+.right_side hr{
+    border-top: 0.5px solid #dad6d6;
+    width: 25rem;
+}
