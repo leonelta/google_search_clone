@@ -455,3 +455,8 @@ input:hover{
     margin-top: 5px;
     padding-left: 10px;
 }
+
+.right_side h4{
+    font-size: 18px;
+    color: #5F6368;
+}
