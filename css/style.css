@@ -620,6 +620,13 @@ td{
     font-size: 15px;
 }
 
+.people a:hover,
+.instag a:hover,
+.faceb a:hover,
+.youtub a:hover{
+    text-decoration: underline;
+}
+
 .ney{
     position: relative;
     right: 2.2rem;
