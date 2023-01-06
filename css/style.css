@@ -443,7 +443,7 @@ input:hover{
 .vertical{
     width: 10%;
     border-left: 1px solid rgb(160, 156, 156);
-    height: 50rem;
+    height: 100rem;
     position: absolute;
     left: 60.4%;
     margin-top: 27px;
@@ -561,3 +561,44 @@ table th{
 td{
     font-size: 13px;
 }
+
+.profile h3{
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+
+.profile .social{
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 20px 30px 20px;
+}
+
+
+.instag a{
+    color: #222121;
+    position: relative;
+    top: 1.5rem;
+    right: 3.2rem;
+}
+
+.faceb{
+    position: relative;
+    right: 5.5rem;
+    top: 0.1rem;
+}
+
+.faceb a,
+.youtub a{
+    color: #222121;
+    position: relative;
+    top: 1.7rem;
+    right: 3.2rem;
+}
+
+.youtub{
+    position: relative;
+    right: 11rem;
+    top: 0.1rem;
+}
+
