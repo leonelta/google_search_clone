@@ -509,21 +509,36 @@ input:hover{
     width: 24rem;
 }
 
-.space a{
+.space .txt{
     color: rgb(26, 25, 25);
-    font-size: 25px;
+    font-size: 20px;
     padding-top: 10px ;  
 }
 
+
 .space .btnn{
     position: relative;
+    top: 4px;
     right: 8rem;
-    border: 1px solid rgb(161, 161, 161);
+    border: 1px solid rgb(224, 224, 224);
     border-radius: 50%;
-    padding: 0px 15px;
+    font-size: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+
 }
+
+.space .txt
 
 .space a img{
     width: 10px;
     height: 10px;  
+    position: relative;
+    top: 10px;
+}
+
+.stats h4{
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #222121;
 }
