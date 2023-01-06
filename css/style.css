@@ -492,6 +492,10 @@ input:hover{
     top: 2px;
  }
 
+ .claim .btnn:hover{
+    background-color: rgba(217, 237, 253, 0.3);
+ }
+
 .claim p{
     font-size: 12px;
     padding-right: 7rem;
