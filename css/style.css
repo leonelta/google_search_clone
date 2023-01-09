@@ -720,6 +720,9 @@ td{
     font-size: 15px;
 }
 
+.wiki .last{
+    font-size: 14px;
+}
 .nom{
     display: flex;
     justify-content: space-between;
@@ -772,4 +775,13 @@ td{
     position: relative;
     right: 21rem;
     top: 2.5px;
+}
+
+.videos{
+    padding-top: 3rem;
+}
+
+.videos a{
+    color: #1c1d1d;
+    font-size: 25px;
 }
