@@ -745,7 +745,7 @@ td{
     padding-top: 30px;
 }
 
-.deux_nom, .left1{
+.deux_nom, .left1, .line{
     display: flex;
     justify-content: space-between;   
 }
@@ -977,4 +977,22 @@ td{
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+.line hr{
+    border-top: 0.2px solid #f1f0f0;
+    margin-top: 1.5rem;
+    width: 51rem;
+}
+
+.line a{
+    color: #222121;
+    margin-top: 1rem;
+    padding-left: 7px;
+    font-size: 13px;
+    padding-bottom: 3px;
+}
+
+.line a:hover{
+    text-decoration: underline;
 }
