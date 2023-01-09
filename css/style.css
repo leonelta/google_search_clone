@@ -438,6 +438,8 @@ input:hover{
 
 .left_side{
     width: 60%;
+    padding-left: 15rem;
+    margin-top: 20px;
 }
 
 .vertical{
@@ -663,4 +665,52 @@ td{
     position: relative;
     left: 4px;
     top: 2.5px;
+}
+
+.heading{
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading img{
+    border: 5px solid #dad6d6;
+    border-radius: 50px;
+}
+
+.heading .main{
+    padding-left: 6px;
+    font-size: 15px;
+    color: #1c1d1d;
+    position: relative;
+    right: 7rem;
+    top: 1px;
+}
+
+.heading .link{
+    position: relative;
+    right: 13.3rem;
+    top: 2px;
+    font-size: 14px;
+    color: #717272;
+}
+
+.heading i{
+    font-size: 13px;
+    color: #9a9a9b;
+    padding-right: 20px;
+    position: relative;
+    right: 19rem;
+    top: 2px;
+}
+
+.wiki a{
+    position: relative;
+    top: 5px;
+    font-size: 20px;
+    color: #1a0dab;
+}
+
+.wiki p{
+    position: relative;
+    top: 5px;
 }
