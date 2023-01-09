@@ -697,14 +697,15 @@ td{
 .heading i{
     font-size: 13px;
     color: #413f3f;
-    padding-right: 20px;
     position: relative;
-    right: 19rem;
+    right: 20rem;
     top: 2px;
 }
 
 .wiki a,
-.second_wiki a{
+.second_wiki a,
+.insta_page a
+{
     position: relative;
     top: 5px;
     font-size: 20px;
@@ -712,7 +713,8 @@ td{
 }
 
 .wiki p,
-.second_wiki p{
+.second_wiki p,
+.insta_page p{
     position: relative;
     top: 5px;
     font-size: 15px;
@@ -750,3 +752,24 @@ td{
     color: #1a0dab;
 }
 
+.insta_page{
+    padding-top: 25px;
+}
+
+.insta_page .heading .main{
+    position: relative;
+    right: 7.5rem;
+    top: 1px;
+}
+
+.insta_page .heading .link{
+    position: relative;
+    right: 14.4rem;
+    top: 2px;
+}
+
+.insta_page .heading i{
+    position: relative;
+    right: 21rem;
+    top: 2.5px;
+}
