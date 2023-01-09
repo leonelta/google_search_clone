@@ -673,7 +673,7 @@ td{
 }
 
 .heading img{
-    border: 5px solid #dad6d6;
+    border: 5px solid rgba(223, 222, 222, 0.3);
     border-radius: 50px;
 }
 
@@ -703,8 +703,9 @@ td{
 }
 
 .wiki a,
-.second_wiki a,
-.insta_page a
+.second_wiki a, .face_page a,
+.insta_page a, .forbes_page a,
+.messi_page a, .eurosport a
 {
     position: relative;
     top: 5px;
@@ -712,12 +713,14 @@ td{
     color: #1a0dab;
 }
 
-.wiki p,
-.second_wiki p,
-.insta_page p{
+.wiki p, .eurosport p,
+.second_wiki p, .forbes_page p,
+.insta_page p, .messi_page p,
+.face_page p{
     position: relative;
-    top: 5px;
+    top: 6px;
     font-size: 15px;
+    color: #444444;
 }
 
 .wiki .last{
@@ -737,7 +740,8 @@ td{
     padding-right: 16rem;
 }
 
-.second_wiki{
+.second_wiki, .forbes_page,
+.eurosport{
     padding-top: 30px;
 }
 
@@ -755,7 +759,7 @@ td{
     color: #1a0dab;
 }
 
-.insta_page{
+.insta_page, .face_page{
     padding-top: 25px;
 }
 
@@ -847,13 +851,95 @@ td{
 
 .videos .btnn{
     position: relative;
-    top: 1.5rem;
+    top: 1.2rem;
     left: 9rem;
     border: 1px transparent ;
-    background-color: rgba(214, 213, 213, 0.3);
+    background-color: rgba(189, 186, 186, 0.3);
     border-radius: 50px;
     padding: 9px 90px;
     color: #2e2e2e;
     margin: 20px;
     font-size: 15px;
+    z-index: 2;
+}
+
+.messi_page{
+    padding-top: 4rem;
+}
+
+.messi_page .main{
+    position: relative;
+    right: 10rem;
+}
+
+.messi_page .link{
+    position: relative;
+    right: 19rem;
+}
+
+.messi_page .heading i{
+    position: relative;
+    right: 29rem;
+}
+
+.forbes, .euro{
+    display: flex;
+    justify-content: space-between;
+}
+
+.first_left .main{
+    position: relative;
+    right: 3rem;
+}
+
+.first_left .link{
+    position: relative;
+    right: 5.5rem;
+}
+
+.first_left .heading i{
+    position: relative;
+    right: 8rem;
+}
+
+.forbes .img,
+.euro .img{
+    padding-right: 4rem;
+    padding-top: 8px;
+}
+
+.forbes .img img,
+.euro .img img
+{
+    border-radius: 15px;
+}
+
+.euro .first_left .main{
+    position: relative;
+    right: 4rem;
+}
+
+.euro .first_left .link{
+    position: relative;
+    right: 7rem;
+}
+
+.euro .first_left .heading i{
+    position: relative;
+    right: 10rem;
+}
+
+.face_page .main{
+    position: relative;
+    right: 7.5rem;
+}
+
+.face_page .link{
+    position: relative;
+    right: 14rem;
+}
+
+.face_page .heading i{
+    position: relative;
+    right: 21rem;
 }
