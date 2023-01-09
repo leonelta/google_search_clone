@@ -996,3 +996,26 @@ td{
 .line a:hover{
     text-decoration: underline;
 }
+
+.grid-container {
+    display: grid;
+    gap: 10px 10px;
+    grid-template-columns: auto auto;
+    padding-top: 21px;
+    padding-right: 5px;
+  }
+
+.grid-item {
+    background-color: rgba(204, 205, 206, 0.2);
+    border: 1px transparent;
+    border-radius: 50px;
+    padding: 15px 10px;
+    margin-right: 70px;
+    font-size: 15px;
+   
+}
+
+.grid-item i{
+    padding-left: 20px;
+    padding-right: 15px;
+}
