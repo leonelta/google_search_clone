@@ -831,4 +831,16 @@ td{
    right: 4rem;
 }
 
-.container 
+.container a{
+    color: #1a0dab;
+    font-size: 17px;
+}
+
+.container p{
+    font-size: 14px;
+    color: #5F6368;
+}
+
+.container .first{
+    padding-top: 11px;
+}
