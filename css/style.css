@@ -144,12 +144,13 @@ input:hover{
 .selection a{
     border-radius: 50px;
     padding: 10px 20px;
-    background-color: #E2EEFF ;
+    background-color: #D8D7DC;
+    color: #1c1d1d;
     margin-left: 2px;  
 }
 
 .selection a:nth-child(1){
-    border: 1px solid #73adff
+    border: 1px solid #171718
 }
 
 
@@ -246,7 +247,7 @@ input:hover{
 
 .middle .card{
     width: 250px ;
-    height: 325px;
+    height: 335px;
     border-radius: 15px ;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
@@ -319,7 +320,7 @@ input:hover{
 
 .date{
     position: relative;
-    bottom: 2rem;
+    bottom: 3rem;
     right: 1rem;
     font-size: 13px;
     color: #70757a;
@@ -439,7 +440,7 @@ input:hover{
 .left_side{
     width: 60%;
     padding-left: 15rem;
-    margin-top: 20px;
+    margin-top: 25px;
 }
 
 .vertical{
@@ -1026,5 +1027,55 @@ td{
 
 #footer{  
     background-color: #f2f2f2;
-    height: 100px;
+    height: 120px;
+}
+
+.footer_first{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5rem;
+    padding-top: 1rem;
+}
+
+.footer_first .first{
+    position: relative;
+    left: 10rem;
+    top: 3px;
+}
+
+.footer_first .text{
+    position: relative;
+    right: 58.5rem;
+    bottom: 35px;
+}
+
+.footer_first i{
+    font-size: 3rem;
+    position: relative;
+    top: 12px;
+}
+
+.footer_first .text a{
+    color: #1a0dab;
+}
+#footer hr{
+    border-top: 0.2px solid #e2e1e1;
+    position: relative;
+    bottom: 30px;
+}
+
+.foot2{
+    display: flex;
+    margin-left: 14rem;
+    position: relative;
+    bottom: 20px;
+}
+
+.foot2 li{
+    padding-left: 1rem;
+}
+
+.foot2 li a{
+    color: #70757a;
+    font-size: 14px;
 }
