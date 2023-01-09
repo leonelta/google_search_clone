@@ -745,7 +745,7 @@ td{
     padding-top: 30px;
 }
 
-.deux_nom{
+.deux_nom, .left1{
     display: flex;
     justify-content: space-between;   
 }
@@ -781,27 +781,27 @@ td{
     top: 2.5px;
 }
 
-.videos{
+.videos, .related{
     padding-top: 3rem;
 }
 
-.videos a{
+.videos a, .related a{
     color: #1c1d1d;
-    font-size: 25px;
+    font-size: 24px;
 }
 
-.videos hr{
+.videos hr, .related hr{
     border-top: 0.2px solid #f1f0f0;
     margin-top: 4px;
     width: 41rem;
 }
 
-.first_video{
+.first_video, .search1{
     display: flex;
     padding-top: 15px;
 }
 
-.video img{
+.video img, .left1 img{
     border-radius: 10px;
 }
 
@@ -942,4 +942,39 @@ td{
 .face_page .heading i{
     position: relative;
     right: 21rem;
+}
+
+.related hr{
+    width: 45rem;
+}
+
+.left1 .shift{
+    position: relative;
+    left: 1rem;
+    top: 8px;
+    font-size: 18px;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown img{
+    position: relative;
+    left: 30rem;
+    top: 10px;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
