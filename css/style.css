@@ -785,3 +785,14 @@ td{
     color: #1c1d1d;
     font-size: 25px;
 }
+
+.videos hr{
+    border-top: 0.2px solid #dad6d6;
+    margin-top: 5px;
+    width: 41rem;
+}
+
+.first_video{
+    display: flex;
+    padding-top: 15px;
+}
