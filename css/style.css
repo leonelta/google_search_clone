@@ -1016,6 +1016,10 @@ td{
 }
 
 .grid-item i{
-    padding-left: 20px;
-    padding-right: 15px;
+    padding-left: 25px;
+    padding-right: 20px;
+}
+
+.goog{
+    margin: 3rem 8rem;
 }
